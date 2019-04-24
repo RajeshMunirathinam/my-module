@@ -1,0 +1,63 @@
+.main {
+  display: flex;
+  background: #e9eada;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  width: 20%;
+}
+
+.container {
+  height: 95vh;
+  background: white;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  position: relative;
+  border-radius: 2px;
+}
+
+.component-view {
+  width: 80%;
+}
+
+.m-r-110 {
+  margin-right: 110px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.m-t-3 {
+  margin-top: 30px;
+}
+
+.f-w-500 {
+  font-weight: 500;
+}
+
+ol {
+  padding-left: 50px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.b-s-3 {
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.b-s-3:hover {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -ms-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -o-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
