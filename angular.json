@@ -23,7 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/Fonts/Dirty_Play.ttf",
+              "src/assets/Fonts/Alliance_Personal_Use.ttf"
             ],
             "scripts": []
           },

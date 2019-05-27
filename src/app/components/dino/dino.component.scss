@@ -1,0 +1,40 @@
+ .dino-layout {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .comp-header {
+    height: 50px;
+    h1 {
+    font-family: AliasPart !important;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    position: relative;
+    }   
+ }
+
+ .comp-body {
+     padding: 20px;
+     display: flex;
+     height: calc(100vh - 60px);
+     justify-content: center;
+     align-items: center;
+ }
+
+ .play-ground {
+     text-align: center;
+     line-height: center;
+     width: 650px;
+     height: 250px;
+     border: 2px solid;
+     margin: 0;
+
+     .dino {
+        position: relative;
+        height: 40px;
+        width: 40px;
+        left: 25px;
+        bottom: -200px;
+     }
+ }

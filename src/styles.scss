@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+//GENERAL IMPORTS AND INCLUDES
+@import '~foundation-sites/scss/foundation';
+@include foundation-everything(true);
+
+// Motion-ui
+@import '~motion-ui/motion-ui';
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Dirty Play;
+  src: url("./assets/Fonts/Dirty_Play.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: AliasPart;
+  src: url("./assets/Fonts/Alliance_Personal_Use.ttf") format("truetype");
+}
